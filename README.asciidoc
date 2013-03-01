@@ -1,39 +1,5 @@
-= dzslides backend for AsciiDoc
+= dzslides backend for AsciiDoc aux couleurs de SQLI
 
-An AsciiDoc backend that renders the AsciiDoc source as a dzslides presentation.
-dzslides is modern presentation framework based on HTML5 and CSS3.
+Il s'agit d'un fork de https://github.com/mojavelinux/asciidoc-dzslides-backend adapté aux couleurs de SQLI.
 
-This backend is designed to work specifically with the following fork of the
-dzslides project: https://github.com/mojavelinux/dzslides.
-
-== Installation
-
-To install the dzslides backend, download
-https://github.com/downloads/mojavelinux/asciidoc-dzslides-backend/dzslides.zip[dzslides.zip]
-and install it using the asciidoc command (you will need AsciiDoc version 8.6.6 or
-newer):
-
-----
-asciidoc --backend install dzslides.zip
-----
-
-Next, make a symlink to dzslides in that folder.
-
-----
-cd ~/.asciidoc/backends/dzslides
-ln -s /path/to/dzslides .
-----
-
-If you enable the linkcss attribute, then the symlink should be added in the
-same directory as the presentation.
-
-== Usage
-
-Use the 'dzslides' backend as you would the built-in backends.
-
-== Example
-
-As you would expect, the rendered output looks just like any other dzslides presentation.
-
-Refer to http://mojavelinux.github.com/decks[these presentations] to see examples of the rendered output and the AsciiDoc source that produced them using this backend.
-
+Copyright 2013 SQLI pour les couleurs et les images. Licence d'origine pour tout le reste.
